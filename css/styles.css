@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	background-color: transparent;
+	color:#111111;
+	font-family: Arial, Helvetica, sans-serif, "微软雅黑";
+	font-size: normal;
+}
+
+a:link, a:visited {text-decoration:none; color:#065388;}
+a:hover {color:#990000;}
+a.current:link, a.current:visited {color:#111; font-weight:bold;}
+
+
+.container {max-width:1000px; float:middle; margin:auto;}
+
+.wrapper {box-shadow:0px 0px 10px #444; -webkit-box-shadow:0px 0px 10px #444; -moz-box-shadow:0px 0px 10px #444; margin:20px 2.5%;}
+
+.banner {float:top; background-color:#1a5275; color:white; min-height:80px; padding:10px; margin:0;	background-image:url(../images/others/banner2.jpg);	border-radius:5px;}
+
+
+.navbar {position:relative;	background-color: #cccccc; background-image: url(../images/others/navbar_bg.gif); border-bottom: 1px solid #001a3a;	padding: 0;	margin: 0; border-radius: 5px;}
+.navbar ul {list-style:none; margin-left:5px; margin-right:auto; margin-top:0; margin-bottom:0;	padding:0 0 0 0px; height:37px;}
+.navbar ul li {display:inline; float:left; margin: 0px 6px;}
+.navbar a:link, .navbar a:visited {color: #001a3a; display: block; float: left; line-height: 37px; padding: 0 8px; margin: 0px 6px; font-size: 100%;}
+.navbar a:hover {color:#ffffff; background-color:#666666;}
+
+.content {background-color: transparent; width:100%; overflow:scroll; float:middle; margin-top:15px; margin-right:25px; border-radius:5px;}
+.content h1 {padding:0 0px;	font-size:120%;	font-weight:bold; font-variant:small-caps; BORDER-BOTTOM:#DDD 1px solid;}
+.content p {float:left; margin:0px 0px 5px 30px;}
+.content img {width:160px; margin:30px 20px 20px 20px;}
+
+.A0 {width:100%; float:middle;} 
+.A0 h1.head {text-align:center;}
+.A0 p.head {text-align:center;}
+
+.A1 {width:47%;float:left;}
+.A1 h1 {margin:20px 0px 0px 40px; font-size: 200%;}
+.A2 {width:47%;float:right;}
+.A2 p {margin:35px 0px 0px 10px; font-size:100%; font-family:"Times New Roman";}
+
+.B0 {width:90%; float:left; padding:10px 0 0 50%;}
+.B0 p {padding:0 0 0 60px; line-height:1px;}
+
+.B1 {width:20%; float:left;}
+.B1 img {border-radius:6px; width:90%; margin:30px 0 0 40%; max-width:160px;}
+
+.B2 {width:65%; float:right; margin:70px 50px 0 0px;}
+.B2 p {font-size:100%; margin:0.001px 0px;line-height:150%}
+.B2 p.small {font-size:80%;}
+.B2 p.state {color:blue;}
+
+.wrapper > h2 {padding:10px 30px 10px 30px; font-size:120%;}
+
+
+@media screen and (max-width: 679px) {
+	.navbar {height:74px;}
+	.B0 {width:90%; float:left; padding:5px 0 0 20px;}
+	.B1 {width:30%; float:left;}
+	.B1 img {border-radius:6px; width:90%; margin:30px 0 0 10%; max-width:160px;}
+	.B2 {width:64%; float:right; margin:20px 10px 0 0px;}
+}
+@media screen and (max-width: 520px) {
+	.B2 p.state {color:blue;font-size:85%;}
+	.wrapper > h2 {padding:0px 20px 0px 20px; font-size:100%;}
+
+}
+@media screen and (max-width: 351px) {
+	.navbar {height:111px;}
+	.B0 {width:90%; float:left; padding:0px 0 0 20px;}
+	.B1 {width:30%; float:left;}
+	.B1 img {border-radius:6px; width:90%; margin:30px 0 0 10%; max-width:160px;}
+	.B2 {width:64%; float:right; margin:20px 10px 0 0px;}
+	.B2 p.state {color:blue;font-size:85%;}
+	.wrapper > h2 {padding:0px 20px 0px 20px; font-size:100%;}
+
+}
+@media screen and (max-width: 332px) {
+	.B0 {width:90%; float:left; padding:0px 0 0 20px;}
+	.wrapper {overflow:scroll;}
+	.B2 p.state {color:blue;font-size:75%;}
+	.wrapper > h2 {padding:0px 20px 0px 20px; font-size:100%;}
+}
+
+
+
+
+.footer {color: #aaa; font-size: 80%; text-align: center;}
+.footer img {float:left; margin-left:15px;}
+
+
+
+
+
