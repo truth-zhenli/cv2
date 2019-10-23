@@ -66,7 +66,6 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 	.B2 p.state {font-size:95%;margin:0px 0 0 0;line-height:160%}
 	.wrapper > h2 {padding:0px 20px 0px 20px; font-size:100%;}
 	.hello {height:270px;}
-
 }
 @media screen and (max-width: 351px) {
 	.navbar {height:111px;}
@@ -76,6 +75,7 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 	.B2 {width:64%; float:right; margin:20px 10px 0 0px;}
 	.B2 p.state {font-size:85%;margin:10px 0 0 0;}
 	.wrapper > h2 {padding:0px 20px 0px 20px; font-size:100%;}
+	
 
 }
 @media screen and (max-width: 332px) {
@@ -91,12 +91,5 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 .footer {color: #aaa; font-size: 80%; text-align: center;}
 .footer img {float:left; margin-left:15px;}
 
-
-
-
-.er {width: 80%; margin: 2em auto;}
-.erweima {position: relative;width: 100%;height: 20em;background: url(../images/others/wechat.png) no-repeat center center;background-size: contain;}
-.erweima img {width: 100%;position: absolute;opacity: 0;}
-.er p {text-align: center;}
 
 
