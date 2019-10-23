@@ -42,8 +42,8 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 .A2 {width:47%;float:right;}
 .A2 p {margin:35px 0px 0px 10px; font-size:100%; font-family:"Times New Roman";}
 
-.B0 {width:90%; float:left; padding:10px 0 0 50%;}
-.B0 p {padding:0 0 0 60px; line-height:1px;}
+.B0 {width:90%; float:left; padding:10px 0 0 30%;}
+.B0 p {font-size:90%; padding:0 0 0 40px; line-height:40%;}
 
 .B1 {width:20%; float:left;}
 .B1 img {border-radius:6px; width:90%; margin:30px 0 0 40%; max-width:160px;}
@@ -61,7 +61,7 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 	.navbar {height:74px;}
 	.B0 {width:90%; float:left; padding:5px 0 0 20px;}
 	.B1 {width:30%; float:left;}
-	.B1 img {border-radius:6px; width:90%; margin:30px 0 0 10%; max-width:140px;}
+	.B1 img {border-radius:6px; width:90%; margin:60px 0 0 10%; max-width:140px;}
 	.B2 {margin:30px 0px 0 0px;}
 	.B2 p.state {font-size:95%;margin:0px 0 0 0;line-height:160%}
 	.wrapper > h2 {padding:0px 20px 0px 20px; font-size:100%;}
