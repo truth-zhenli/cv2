@@ -57,7 +57,7 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 
 .hello {height:290px;}
 
-@media screen and (max-width: 679px) {
+@media screen and (max-width: 619px) {
 	.navbar {height:74px;}
 	.B0 {width:90%; float:left; padding:5px 0 0 30px;}
 	.B1 {width:30%; float:left;}
