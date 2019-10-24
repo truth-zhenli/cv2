@@ -57,7 +57,7 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 
 .hello {height:290px;}
 
-@media screen and (max-width: 619px) {
+@media screen and (max-width: 607px) {
 	.navbar {height:74px;}
 	.B0 {width:90%; float:left; padding:5px 0 0 30px;}
 	.B1 {width:30%; float:left;}
@@ -67,7 +67,7 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 	.wrapper > h2 {padding:0px 20px 0px 20px; font-size:100%;}
 	.hello {height:270px;}
 }
-@media screen and (max-width: 351px) {
+@media screen and (max-width: 337px) {
 	.navbar {height:111px;}
 	.B0 {width:90%; float:left; padding:0px 0 0 30px;}
 	.B1 {width:30%; float:left;}
@@ -78,7 +78,7 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 	
 
 }
-@media screen and (max-width: 332px) {
+@media screen and (max-width: 337px) {
 	.B0 {width:90%; float:left; padding:0px 0 0 30px;}
 	.wrapper {overflow:scroll;}
 	.B2 p.state {font-size:75%;margin:10px 0 0 0;}
