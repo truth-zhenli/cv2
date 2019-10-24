@@ -21,11 +21,11 @@ var slide_list = [{
     "title": "The disaggregation of C60 vs graphene clusters in lipid membranes",
     "url": "",
 }, {
-    "source": "images/research/A15.jpg",
+    "source": "images/research/A14.jpg",
     "title": "Properties of lipid membranes are affected by the insertion of nanosheets",
     "url": "",
 }, {
-    "source": "images/research/A14.jpg",
+    "source": "images/research/A15.jpg",
     "title": "The lipid spreading behavior that leads to collapse of liposomes",
     "url": "",
 }, {
