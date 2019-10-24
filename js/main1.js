@@ -19,15 +19,15 @@ var TemplateEngine = function (html, options) {
 }
 
 $(function () {
-	for (var i = 0; i <= 10; i++ ){
+	for (var i = 0; i <= 9; i++ ){
 		var slide_item = $('<li></li>');
-		$(slide_item).append ('<div style="height:270px; background-image:url('+slide_list[i].source+');background-repeat:no-repeat; background-position:center;background-size:contain;"></div>');
+		$(slide_item).append ('<div style="height:400px; background-image:url('+slide_list[i].source+');background-repeat:no-repeat; background-position:center;background-size:contain;"></div>');
 		$(slide_item).append ('<p>'+slide_list[i].title+'</p>');
 		
 		$('#highlight1 .slides').append(slide_item);
 	}
 	
-	for (var i = 11; i <= 17; i++ ){
+	for (var i = 10; i <= 17; i++ ){
 		var slide_item = $('<li></li>');
 		$(slide_item).append ('<div style="height:310px; background-image:url('+slide_list[i].source+');background-repeat:no-repeat; background-position:center;background-size:contain;"></div>');
 		$(slide_item).append ('<p>'+slide_list[i].title+'</p>');

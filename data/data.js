@@ -1,40 +1,44 @@
 
 // Highlight Slides
 var slide_list = [{
-    "source": "images/research/A1.jpg",
-    "title": "二维纳米材料与细胞膜的相互作用",
+    "source": "images/research/A10.gif",
+    "title": "Membrane remodeling: effect of lipid components",
     "url": "",
 }, {
-    "source": "images/research/A2.jpg",
-    "title": "二维纳米材料与细胞膜的相互作用：多形性状态",
+    "source": "images/research/A10.jpg",
+    "title": "Interaction morphology of nanosheets and lipid membranes",
     "url": "",
 }, {
-    "source": "images/research/A3.gif",
-    "title": "二维纳米材料与细胞膜的相互作用：表面曲率依赖",
+    "source": "images/research/A11.jpg",
+    "title": "Dynamic and thermodynamic insights into the lipid extraction phenomenon",
     "url": "",
 }, {
-    "source": "images/research/A4.jpg",
-    "title": "两亲性分子的自组装形貌调控与环境响应特性：限域空间诱导形成同心层状自组装结构",
+    "source": "images/research/A12.jpg",
+    "title": "The orientation of nanosheets in lipid membranes",
     "url": "",
 }, {
-    "source": "images/research/A5.gif",
-    "title": "两亲性分子的自组装形貌调控与环境响应特性：逐层诱导现象",
+    "source": "images/research/A13.jpg",
+    "title": "The disaggregation of C60 vs graphene clusters in lipid membranes",
     "url": "",
 }, {
-    "source": "images/research/A6.jpg",
-    "title": "两亲性分子的自组装形貌调控与环境响应特性：多形性自组装卷状结构",
+    "source": "images/research/A15.jpg",
+    "title": "Properties of lipid membranes are affected by the insertion of nanosheets",
     "url": "",
 }, {
-    "source": "images/research/A7.jpg",
-    "title": "两亲性分子的自组装形貌调控与环境响应特性：小分子组装体的光响应转变",
-    "url": "",
-}, {
-    "source": "images/research/A8.gif",
-    "title": "二维材料储能机制研究：Na离子在掺杂石墨烯电极上的扩散(DFT动力学计算)",
+    "source": "images/research/A14.jpg",
+    "title": "The lipid spreading behavior that leads to collapse of liposomes",
     "url": "",
 }, {
     "source": "images/research/A9.jpg",
-    "title": "柔性、可穿戴电池用聚合物电解液性能分析：聚合物凝胶导电性和保水性",
+    "title": "Diffusion of metal ions in polymer electrolytes",
+    "url": "",
+}, {
+    "source": "images/research/A5.gif",
+    "title": "Self-assembly of amphiphiles under confinement",
+    "url": "",
+}, {
+    "source": "images/research/A16.jpg",
+    "title": "Interesting nanostructures obtained with strategies tuning the self-assembly of amphiphiles",
     "url": "",
 }, {
     "source": "images/research/A10.gif",
