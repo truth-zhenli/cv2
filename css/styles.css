@@ -44,7 +44,7 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 .A2 p.head {font-size:200%; text-align:center; padding:0px 20% 0 0; background-image:url(../images/others/EN.png); background-repeat: no-repeat; background-position:top; background-size:auto 38px;}
 .A2 p:hover {font-size:200%; text-align:center; padding:0px 20% 0 0; background-image:url(../images/others/EN2.png); background-repeat: no-repeat; background-position:top; background-size:auto 38px;}
 
-.A2en {width:25%;float:right;}
+.A2en {width:20%;float:right;}
 .A2en p.head {font-size:200%; text-align:center; padding:0px 20% 0 0; background-image:url(../images/others/CN.png); background-repeat: no-repeat; background-position:top; background-size:auto 38px;}
 .A2en p:hover {font-size:200%; text-align:center; padding:0px 20% 0 0; background-image:url(../images/others/CN2.png); background-repeat: no-repeat; background-position:top; background-size:auto 38px;}
 
