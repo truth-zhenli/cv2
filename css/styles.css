@@ -37,10 +37,17 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 .A0 h1.head {text-align:center;}
 .A0 p.head {text-align:left; padding:0 0 0 10px;}
 
-.A1 {width:47%;float:left;}
-.A1 h1 {margin:20px 0px 0px 40px; font-size: 200%;}
-.A2 {width:47%;float:right;}
-.A2 p {margin:35px 0px 0px 10px; font-size:100%; font-family:"Times New Roman";}
+.A1 {width:75%;float:left;}
+.A1 p.head {text-align:left; padding:0 0 0 7px;}
+
+.A2 {width:15%;float:right;}
+.A2 p.head {font-size:200%; text-align:center; padding:0px 20% 0 0; background-image:url(../images/others/EN.png); background-repeat: no-repeat; background-position:top; background-size:auto 38px;}
+.A2 p:hover {font-size:200%; text-align:center; padding:0px 20% 0 0; background-image:url(../images/others/EN2.png); background-repeat: no-repeat; background-position:top; background-size:auto 38px;}
+
+.A2en {width:25%;float:right;}
+.A2en p.head {font-size:200%; text-align:center; padding:0px 20% 0 0; background-image:url(../images/others/CN.png); background-repeat: no-repeat; background-position:top; background-size:auto 38px;}
+.A2en p:hover {font-size:200%; text-align:center; padding:0px 20% 0 0; background-image:url(../images/others/CN2.png); background-repeat: no-repeat; background-position:top; background-size:auto 38px;}
+
 
 .B0 {width:90%; float:left; padding:10px 0 0 37%;}
 .B0 p {font-size:90%; padding:0 0 0 40px; line-height:40%;}
