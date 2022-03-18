@@ -49,20 +49,21 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 .A2en p:hover {font-size:200%; text-align:center; padding:0px 20% 0 0; background-image:url(../images/others/CN2.png); background-repeat: no-repeat; background-position:top; background-size:auto 38px;}
 
 
-.B0 {width:90%; float:left; padding:10px 0 0 37%;}
-.B0 p {font-size:90%; padding:0 0 0 40px; line-height:40%;}
+.B0 {width:90%; float:left; padding:10px 0 0 35%;}
+.B0 p {font-size:100%; padding:0 0 0 40px; line-height:40%;}
 
 .B1 {width:20%; float:left;}
-.B1 img {border-radius:6px; width:90%; margin:30px 0 0 40%; max-width:160px;}
+.B1 img {border-radius:6px; width:90%; margin:30% 0 0 40%; max-width:160px;}
 
-.B2 {width:65%; float:right; margin:70px 0px 0 0px;}
+.B2 {width:65%; float:right; margin:50px 40px 0 0px;}
 .B2 p {font-size:110%; margin:0.001px 0px;line-height:170%}
 .B2 p.small {font-size:80%;}
 .B2 p.state {color:#03368a;}
+.B2 p.state2 {color:red;}
 
 .wrapper > h2 {padding:10px 30px 10px 30px; font-size:120%;}
 
-.hello {height:290px;}
+.hello {height:320px;}
 
 @media screen and (max-width: 655px) {
 	.navbar {height:74px;}
@@ -71,6 +72,7 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 	.B1 img {border-radius:6px; width:90%; margin:60px 0 0 10%; max-width:140px;}
 	.B2 {margin:30px 0px 0 0px;}
 	.B2 p.state {font-size:95%;margin:0px 0 0 0;line-height:160%}
+	.B2 p.state2 {font-size:95%;margin:0px 0 0 0;line-height:160%}
 	.wrapper > h2 {padding:0px 20px 0px 20px; font-size:100%;}
 	.hello {height:270px;}
 }
@@ -81,6 +83,7 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 	.B1 img {border-radius:6px; width:90%; margin:30px 0 0 10%; max-width:160px;}
 	.B2 {width:64%; float:right; margin:20px 10px 0 0px;}
 	.B2 p.state {font-size:85%;margin:10px 0 0 0;}
+	.B2 p.state2 {font-size:85%;margin:10px 0 0 0;}
 	.wrapper > h2 {padding:0px 20px 0px 20px; font-size:100%;}
 	
 
@@ -89,6 +92,7 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 	.B0 {width:90%; float:left; padding:0px 0 0 30px;}
 	.wrapper {overflow:scroll;}
 	.B2 p.state {font-size:75%;margin:10px 0 0 0;}
+	.B2 p.state2 {font-size:75%;margin:10px 0 0 0;}
 	.wrapper > h2 {padding:0px 20px 0px 20px; font-size:100%;}
 }
 
