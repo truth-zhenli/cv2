@@ -61,6 +61,13 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 .B2 p.state {color:#03368a;}
 .B2 p.state2 {color:#d11342;}
 
+
+.C1 {width:60%; float:left; margin:0px 20px 0 0px;}
+.C1 p {font-size:110%; margin:0.001px 0px;line-height:170%}
+
+.C2 {width:35%; float:right;}
+.C2 img {border-radius:6px; width:90%; margin:0 0 0 0; max-width:90%;}
+
 .wrapper > h2 {padding:10px 30px 10px 30px; font-size:120%;}
 
 .hello {height:320px;}
