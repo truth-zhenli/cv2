@@ -62,7 +62,7 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 .A0 h1.head {text-align:center;}
 .A0 p.head {font-size:16px; text-align:left; padding:0 0 0 10px;}
 
-.A1 {width:75%;float:left;}
+.A1 {width:100%;float:left;}
 .A1 p.head {text-align:left; padding:0 0 0 7px;}
 
 .A2 {width:15%;float:right;}
