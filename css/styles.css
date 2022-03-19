@@ -5,7 +5,7 @@ html {
 	font-size:16px;
 }
 
-/*
+
 @media screen and (min-width: 320px) {html{font-size:32%;}}
 @media screen and (min-width: 360px) {html{font-size:36%;}}
 @media screen and (min-width: 375px) {html{font-size:37.5%;}}
@@ -22,7 +22,7 @@ html {
 @media screen and (min-width: 760px) {html{font-size:76%;}}
 @media screen and (min-width: 800px) {html{font-size:90%;}}
 @media screen and (min-width: 1000px) {html{font-size:100%;}}
-*/
+
 
 
 body {
@@ -50,7 +50,7 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 .navbar {position:relative;	background-color: #cccccc; background-image: url(../images/others/navbar_bg.gif); border-bottom: 1px solid #001a3a;	padding: 0;	margin: 0; border-radius: 5px;}
 .navbar ul {list-style:none; margin-left:5px; margin-right:auto; margin-top:0; margin-bottom:0;	padding:0 0 0 0px; height:37px;}
 .navbar ul li {display:inline; float:left; margin: 0px 6px;}
-.navbar a:link, .navbar a:visited {color: #001a3a; display: block; float: left; line-height: 37px; padding: 0 8px; margin: 0px 6px; font-size: 100%;}
+.navbar a:link, .navbar a:visited {color: #001a3a; display: block; float: left; line-height: 37px; padding: 0 8px; margin: 0px 6px; font-size: 16px;}
 .navbar a:hover {color:#ffffff; background-color:#666666;}
 
 .content {background-color: transparent; width:100%; overflow:scroll; float:middle; margin-top:15px; margin-right:25px; border-radius:5px;}
@@ -60,7 +60,7 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 
 .A0 {width:100%; float:middle;} 
 .A0 h1.head {text-align:center;}
-.A0 p.head {font-size:1rem; text-align:left; padding:0 0 0 10px;}
+.A0 p.head {font-size:16px; text-align:left; padding:0 0 0 10px;}
 
 .A1 {width:75%;float:left;}
 .A1 p.head {text-align:left; padding:0 0 0 7px;}
