@@ -78,7 +78,7 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 .B0 p {font-size:100%; padding:0 0 0 40px; line-height:40%;}
 
 .B1 {width:20%; float:left;}
-.B1 img {border-radius:6px; width:90%; margin:50px 0 0 40%; max-width:160px;}
+.B1 img {border-radius:6px; width:90%; margin:70px 0 0 40%; max-width:160px;}
 
 .B2 {width:65%; float:right; margin:50px 40px 0 0px;}
 .B2 p {margin:0.001px 0px;line-height:170%; font-size:110%;}
@@ -104,7 +104,7 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 
 .wrapper > h2 {padding:10px 30px 10px 30px; font-size:120%;}
 
-.hello {height:320px;}
+.hello {height:350px;}
 
 
 
