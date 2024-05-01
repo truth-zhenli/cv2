@@ -93,10 +93,10 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 .C2 {width:48%; float:right;}
 .C2 img {border-radius:6px; width:90%; margin:0 0 0 0; max-width:95%;}
 
-.C3 {width:54%; float:right; margin:0px 0px 0 0px;}
+.C3 {width:48%; float:right; margin:0px 0px 0 0px;}
 .C3 p {font-size:110%; margin:0.001px 0px;line-height:170%}
 
-.C4 {width:43%; float:left;}
+.C4 {width:48%; float:left;}
 .C4 img {border-radius:6px; margin:0 0 0 11%; max-width:95%; max-height:180px}
 
 
