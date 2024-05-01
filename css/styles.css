@@ -44,14 +44,14 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 .wrapper {box-shadow:0px 0px 10px #444; -webkit-box-shadow:0px 0px 10px #444; -moz-box-shadow:0px 0px 10px #444; margin:20px 2.5%;}
 .wrapper h4 {text-align:center;}
 
-.banner {float:top; background-color:#1a5275; color:white; min-height:80px; padding:10px; margin:0;	background-image:url(../images/others/banner2.jpg);	border-radius:5px;	border-bottom: 5px solid #ff8c00;}
+.banner {float:top; background-color:#1a5275; color:white; min-height:80px; padding:10px; margin:0;	background-image:url(../images/others/banner3.jpg);	border-radius:5px;	border-bottom: 4px solid #ff8c00;}
 
 
 .navbar {position:relative;	background-color: #cccccc; background-image: url(../images/others/navbar_bg.gif); border-bottom: 1px solid #001a3a;	padding: 0;	margin: 0; border-radius: 5px;}
 .navbar ul {list-style:none; margin-left:5px; margin-right:auto; margin-top:0; margin-bottom:0;	padding:0 0 0 0px; height:37px;}
 .navbar ul li {display:inline; float:left; margin: 0px 6px;}
 .navbar a:link, .navbar a:visited {color: #001a3a; display: block; float: left; line-height: 37px; padding: 0 8px; margin: 0px 6px; font-size: 16px;}
-.navbar a:hover {color:#ffffff; background-color:#666666;}
+.navbar a:hover {color:#fcaf4e; background-color:#1a5275;}
 
 .content {background-color: transparent; width:100%; overflow:scroll; float:middle; margin-top:15px; margin-right:25px; border-radius:5px;}
 .content h1 {padding:0 0px;	font-size:120%;	font-weight:bold; font-variant:small-caps; BORDER-BOTTOM:#DDD 1px solid;}
