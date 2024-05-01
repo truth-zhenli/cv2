@@ -1,44 +1,43 @@
 
 // Highlight Slides
 var slide_list = [{
-    "source": "images/research/A10.jpg",
-    "title": "Interaction morphology of nanosheets and lipid membranes",
+    "source": "images/gallery/20240223.jpg",
+    "title": "20240223 悦和花街小聚",
     "url": "",
 }, {
-    "source": "images/research/A11.jpg",
-    "title": "Dynamic and thermodynamic insights into the lipid extraction phenomenon",
+    "source": "images/gallery/20231214.jpg",
+    "title": "20231214 吾悦广场（彩票中大奖啦）",
+    "url": "",
+}];
+
+// Main page slides
+var slide_list2 = [{
+    "source": "images/cover/AI.png",
+    "title": "",
     "url": "",
 }, {
-    "source": "images/research/A12.jpg",
-    "title": "The orientation of nanosheets in lipid membranes",
+    "source": "images/cover/2024EnergyFuels1.jpg",
+    "title": "",
     "url": "",
 }, {
-    "source": "images/research/A13.jpg",
-    "title": "The disaggregation of C60 vs graphene clusters in lipid membranes",
+    "source": "images/cover/2022Nanoscale1.jpg",
+    "title": "",
     "url": "",
 }, {
-    "source": "images/research/A14.jpg",
-    "title": "Properties of lipid membranes are affected by the insertion of nanosheets",
+    "source": "images/cover/2022Nanoscale1.jpg",
+    "title": "",
     "url": "",
 }, {
-    "source": "images/research/A15.jpg",
-    "title": "The lipid spreading behavior that leads to collapse of liposomes",
+    "source": "images/cover/2018ACSNano1.jpg",
+    "title": "",
     "url": "",
 }, {
-    "source": "images/research/A10.gif",
-    "title": "Membrane remodeling: effect of lipid components",
+    "source": "images/cover/2018AEM1.jpg",
+    "title": "",
     "url": "",
 }, {
-    "source": "images/research/A9.jpg",
-    "title": "Diffusion of metal ions in polymer electrolytes",
-    "url": "",
-}, {
-    "source": "images/research/A5.gif",
-    "title": "Self-assembly of amphiphiles under confinement",
-    "url": "",
-}, {
-    "source": "images/research/A16.jpg",
-    "title": "Interesting nanostructures obtained with strategies tuning the self-assembly of amphiphiles",
+    "source": "images/cover/2019Small1.jpg",
+    "title": "",
     "url": "",
 }];
 
