@@ -54,12 +54,11 @@
 }
 
 .flex2slider .slides img {
-	max-height: 50px;
-	max-width: 90%;
+	max-height: 350px;
+	max-width: 100%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 .slides p {
 	font-size:100%;
@@ -117,7 +116,7 @@ html[xmlns] .flex2slider .slides {
   transition: all 1s ease;
 }
 .loading .flex2-viewport {
-  max-height: 300px;
+  max-height: 350px;
 }
 .carousel li {
   margin-right: 5px;
@@ -132,7 +131,7 @@ html[xmlns] .flex2slider .slides {
   height: 40px;
   margin: -20px 0 0;
   position: absolute;
-  top: 80%;
+  top: 50%;
   z-index: 10;
   overflow: hidden;
   opacity: 0;
@@ -211,7 +210,7 @@ html[xmlns] .flex2slider .slides {
 .flex2-control-nav {
   width: 100%;
   position: absolute;
-  bottom: -100px;
+  bottom: -20px;
   text-align: center;
 }
 .flex2-control-nav li {

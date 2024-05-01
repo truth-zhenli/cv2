@@ -21,7 +21,7 @@ var TemplateEngine = function (html, options) {
 $(function () {
 	for (var i = 0; i <= 9; i++ ){
 		var slide_item2 = $('<li></li>');
-		$(slide_item2).append ('<div style="height:400px; background-image:url('+slide_list2[i].source+');background-repeat:no-repeat; background-position:center;background-size:contain;"></div>');
+		$(slide_item2).append ('<div style="background-image:url('+slide_list2[i].source+');background-repeat:no-repeat; height:250px; background-position:center; background-size:contain;transform: translate(0%, 0%)"></div>');
 		$(slide_item2).append ('<p>'+slide_list2[i].title+'</p>');
 		
 		$('#highlight2 .slides').append(slide_item2);

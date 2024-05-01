@@ -12,15 +12,7 @@ var slide_list = [{
 
 // Main page slides
 var slide_list2 = [{
-    "source": "images/cover/AI.png",
-    "title": "",
-    "url": "",
-}, {
     "source": "images/cover/2024EnergyFuels1.jpg",
-    "title": "",
-    "url": "",
-}, {
-    "source": "images/cover/2022Nanoscale1.jpg",
     "title": "",
     "url": "",
 }, {
