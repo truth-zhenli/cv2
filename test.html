@@ -3,8 +3,8 @@
     <!DOCTYPE html>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>李振个人简介</title>
-    <!-- 百度地图API脚本，添加了callback属性确保API加载完毕后调用initMap函数 -->
-    <script type="text/javascript" src="https://api.map.baidu.com/api?type=webgl&v=1.0&ak=eHhm1G0Iphvolv20KxrIno63FUIQf1nh&callback=initMap"></script>
+    <!-- 百度地图API脚本 -->
+    <script type="text/javascript" src="https://api.map.baidu.com/api?type=webgl&v=1.0&ak=eHhm1G0Iphvolv20KxrIno63FUIQf1nh"></script> 
 </head>
 <body>
     <div class="container">
@@ -14,21 +14,21 @@
         </div>
     </div>
 
-    <!-- 确保API加载后再初始化地图 -->
     <script type="text/javascript">
-        // 创建和初始化地图的函数
-        function initMap() {
-            if (typeof BMap === "undefined") {
-                console.error("BMap is not defined. Make sure the Baidu Map API is loaded before calling initMap.");
-                return;
+        // 确保DOM加载完毕后再初始化地图
+        window.onload = function() {
+            // 创建和初始化地图的函数
+            function initMap() {
+                var map = new BMap.Map('map');
+                map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);
+                var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});
+                map.addControl(top_left_control);
+                map.addControl(new BMap.NavigationControl());
+                var marker = new BMap.Marker(new BMap.Point(116.404, 39.915));
+                map.addOverlay(marker);
             }
-            var map = new BMap.Map('map');
-            map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);
-            var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});
-            map.addControl(top_left_control);
-            map.addControl(new BMap.NavigationControl());
-            var marker = new BMap.Marker(new BMap.Point(116.404, 39.915));
-            map.addOverlay(marker);
+            // 调用initMap函数
+            initMap();
         }
     </script>
 </body>
