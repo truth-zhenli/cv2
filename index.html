@@ -68,6 +68,7 @@
 
 		
 		
+		
 		<button id="back" style="position:fixed;right:20;bottom:30;font-size:90%;">回到顶部</button>
 		<script>
 			back.onclick = function(){
@@ -77,7 +78,19 @@
 		
 		
 		<div class="footer">
-			<p>&copy; Copyleft LI Zhen  &nbsp;    </p>
+			<p>访问人数：<span id="visitorCount">加载中...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &copy; Copyleft LI Zhen  &nbsp;</span></p>
+			<script>
+				// 使用AJAX请求调用PHP脚本
+				var xhr = new XMLHttpRequest();
+				xhr.open('GET', 'counter/counter.php', true);
+				xhr.onreadystatechange = function() {
+					if (xhr.readyState == 4 && xhr.status == 200) {
+						// 将返回的计数显示在页面上
+						document.getElementById('visitorCount').textContent = xhr.responseText;
+					}
+				};
+				xhr.send();
+			</script>
 		</div>
 	</div>
 </body>
