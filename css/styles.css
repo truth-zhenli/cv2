@@ -86,6 +86,9 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 .B2 p.state {color:#03368a; }
 .B2 p.state2 {color:#d11342;}
 
+.C0 {width:100%; float:left; margin:0px 0px 0 0px;}
+.C0 p {font-size:110%; margin:0.001px 0px;line-height:170%}
+.C0 img {border-radius:6px; width:80%; margin:0 0 0 0; max-width:90%;}
 
 .C1 {width:48%; float:left; margin:0px 0px 0 0px;}
 .C1 p {font-size:110%; margin:0.001px 0px;line-height:170%}
@@ -97,7 +100,7 @@ a.current:link, a.current:visited {color:#111; font-weight:bold;}
 .C3 p {font-size:110%; margin:0.001px 0px;line-height:170%}
 
 .C4 {width:48%; float:left;}
-.C4 img {border-radius:6px; margin:0 0 0 11%; max-width:95%; max-height:180px}
+.C4 img {border-radius:6px; margin:0 0 0 11%; max-width:90%; max-height:220px}
 
 
 .partition {padding: 0 20px 0; margin: 20px 0; line-height: 1px; border-left: 200px solid #ddd; border-right: 200px solid #ddd; text-align: center;}

@@ -1,12 +1,20 @@
 
 // Highlight Slides
 var slide_list = [{
+    "source": "images/gallery/20240629.jpg",
+    "title": "20240629 上海行",
+    "url": "",
+}, {
     "source": "images/gallery/20240223.jpg",
     "title": "20240223 悦和花街小聚",
     "url": "",
 }, {
     "source": "images/gallery/20231214.jpg",
     "title": "20231214 吾悦广场（彩票中大奖啦）",
+    "url": "",
+}, {
+    "source": "images/gallery/20250404.jpg",
+    "title": "20250404 大珠山",
     "url": "",
 }];
 
